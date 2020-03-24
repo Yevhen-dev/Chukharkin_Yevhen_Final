@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TL</title>
+    <link rel="stylesheet" href="fonts/openSans/stylesheet.css">
+    <link rel="stylesheet" href="fonts/robotoBold/stylesheet.css">
+    <link rel="stylesheet" href="fonts/robotoRegular/stylesheet.css">
+    <link rel="stylesheet" href="fonts/robotoMedium/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/start.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container__logo">
+                <a href="start.html" class="header__container__logo--link">tl</a>
+                <a href="start.html" class="header__container__logo--link__full">Template</a>
+            </div>
+
+            <div class="header__container__bag-menu">
+
+                <div class="header__container__bag-menu__sign-in">
+                    <a href="#" class="header__container__bag-menu__sign-in__btn">E-mail sing up</a>
+                </div>
+
+                <div class="header__container__bag-menu__bag">
+                    <a href="shopping-bag.html" class="header__container__bag-menu__bag--link">
+                        <img src="img/bag.png" alt="bag">
+                        <span>Bag</span>
+                        <span id="price-header"></span>
+                        <span>(</span>
+                        <span id="count"></span>
+                        <span>)</span>
+                    </a>
+                </div>
+
+                <div class="header__container__bag-menu__burger">
+                    <a class="header__container__bag-menu__burger__burger-icon" href="#"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__wrap-nav">
+            <nav class="header__wrap-nav__nav">
+                <ul class="header__wrap-nav__nav__list">
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Women</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Men</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Handbag</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Accessories</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Sale</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">New Arrivals</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Clearance</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Store Locator</a>
+                    </li>
+                </ul>
+                <label class="header__wrap-nav__nav__search">
+                    <input class="header__wrap-nav__nav__search__input" type="text" placeholder="Style Name">
+                    <a href="#" class="header__wrap-nav__nav__search__icon"></a>
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="main__container">
+
+            <div class="main__container__offers">
+                <div class="main__container__offers__mobile">
+                    <a href="item.html" class="main__container__offers__snickers">
+                        <img src="img/nike2.png" class="main__container__offers__snickers__photo" alt="snickers nike">
+                        <span class="main__container__offers__snickers__name">Nike Red</span>
+                    </a>
+                </div>
+                <div class="main__container__offers__full">
+                    <a href="catalog.html" class="main__container__offers__full__caps-hats">
+                        <img src="img/caps&hats.png" class="main__container__offers__full__caps-hats__link"
+                             alt="snickers nike">
+                        <div class="main__container__offers__full__caps-hats__link__wrap-name-sale">
+                            <span class="main__container__offers__full__caps-hats__link__wrap-name-sale__name">Caps & Hats</span>
+                            <span class="main__container__offers__full__caps-hats__link__wrap-name-sale__sale">Sale -50%</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="main__container__about-offers">
+                <h2 class="main__container__about-offers__title">Best offer</h2>
+                <p class="main__container__about-offers__description">This offer is valid in-store and online. Prices
+                    displayed reflect this additional discount. This offer ends at 11:59 GMT on March 1st 2019</p>
+                <div class="main__container__about-offers__subscribe">
+                    <label class="main__container__about-offers__subscribe__label">
+                        <input type="text" id="email" placeholder="email">
+                    </label>
+                    <button class="main__container__about-offers__subscribe__btn">subscribe to promo</button>
+                    <p class="main__container__about-offers__subscribe__invalid">invalid email</p>
+                    <p class="main__container__about-offers__subscribe__correct">successfully subscribe</p>
+                </div>
+            </div>
+
+            <div class="main__container__show-products">
+                <div class="main__container__show-products--container">
+                    <div class="main__container__show-products__wrap">
+                        <div class="main__container__show-products__wrap__left">
+                            <a href="#" class="main__container__show-products__wrap__left__up"><img src="img/arrowUp.png"
+                                                                                                    alt="arrow"></a>
+                            <ul class="main__container__show-products__wrap__left__list"></ul>
+                            <a href="#" class="main__container__show-products__wrap__left__down"><img
+                                    src="img/arrowDown.png" alt="arrow"></a>
+                        </div>
+
+                        <span class="main__container__show-products__wrap__plus">+</span>
+
+                        <div class="main__container__show-products__wrap__right">
+                            <a href="#" class="main__container__show-products__wrap__right__up"><img src="img/arrowUp.png"
+                                                                                                     alt="arrow"></a>
+                            <ul class="main__container__show-products__wrap__right__list"></ul>
+                            <a href="#" class="main__container__show-products__wrap__right__down"><img
+                                    src="img/arrowDown.png" alt="arrow"></a>
+                        </div>
+                    </div>
+
+                    <div class="main__container__show-products__price">
+                        <span class="main__container__show-products__price--old">£161.00</span>
+                        <p class="main__container__show-products__price--new">= <span>£146.00</span></p>
+                    </div>
+                </div>
+                <a href="#" class="main__container__show-products__btn">Add to bag</a>
+            </div>
+
+            <div class="main__container__new-arrival">
+                <div class="main__container__new-arrival__wrap">
+                    <h2 class="main__container__new-arrival__wrap__title">New arrivals</h2>
+                    <ul class="main__container__new-arrival__wrap__list">
+                        <li class="main__container__new-arrival__wrap__list__item">
+                            <a href="item.html" class="main__container__new-arrival__wrap__list__item__link">
+                                <div class="main__container__new-arrival__wrap__list__item__link__wrap">
+                                    <div class="main__container__new-arrival__wrap__list__item__link__wrap__fade">View
+                                        item
+                                    </div>
+                                    <span class="main__container__new-arrival__wrap__list__item__link__wrap__new">new</span>
+                                    <img src="img/onlySkinnyJeans.png"
+                                         class="main__container__new-arrival__wrap__list__item__link__wrap__img"
+                                         alt="skinny jeans">
+                                </div>
+                                <p class="main__container__new-arrival__wrap__list__item__link__name">Only Skinny Jeans</p>
+                                <span class="main__container__new-arrival__wrap__list__item__link__price">£65.50</span>
+                            </a>
+                        </li>
+                        <li class="main__container__new-arrival__wrap__list__item">
+                            <a href="item.html" class="main__container__new-arrival__wrap__list__item__link">
+                                <div class="main__container__new-arrival__wrap__list__item__link__wrap">
+                                    <div class="main__container__new-arrival__wrap__list__item__link__wrap__fade">View
+                                        item
+                                    </div>
+                                    <span class="main__container__new-arrival__wrap__list__item__link__wrap__new">new</span>
+                                    <img src="img/knittedJumper.png"
+                                         class="main__container__new-arrival__wrap__list__item__link__wrap__img"
+                                         alt=" knitted Jumper">
+                                </div>
+                                <p class="main__container__new-arrival__wrap__list__item__link__name">Neck Knitted
+                                    Jumper</p>
+                                <span class="main__container__new-arrival__wrap__list__item__link__price">£76.25</span>
+                            </a>
+                        </li>
+                        <li class="main__container__new-arrival__wrap__list__item hidden">
+                            <a href="item.html" class="main__container__new-arrival__wrap__list__item__link">
+                                <div class="main__container__new-arrival__wrap__list__item__link__wrap">
+                                    <div class="main__container__new-arrival__wrap__list__item__link__wrap__fade">View
+                                        item
+                                    </div>
+                                    <img src="img/turtleNeckJumperInRib.png"
+                                         class="main__container__new-arrival__wrap__list__item__link__wrap__img"
+                                         alt="skinny jeans">
+                                </div>
+                                <p class="main__container__new-arrival__wrap__list__item__link__name">Turtle Neck Jumper in
+                                    Rib</p>
+                                <span class="main__container__new-arrival__wrap__list__item__link__price">£130.25</span>
+                            </a>
+                        </li>
+                        <li class="main__container__new-arrival__wrap__list__item desktop">
+                            <a href="item.html" class="main__container__new-arrival__wrap__list__item__link">
+                                <div class="main__container__new-arrival__wrap__list__item__link__wrap">
+                                    <div class="main__container__new-arrival__wrap__list__item__link__wrap__fade">View
+                                        item
+                                    </div>
+                                    <img src="img/withPatchworkCrochet.png"
+                                         class="main__container__new-arrival__wrap__list__item__link__wrap__img"
+                                         alt="With Patchwork Crochet">
+                                </div>
+                                <p class="main__container__new-arrival__wrap__list__item__link__name">With Patchwork
+                                    Crochet</p>
+                                <span class="main__container__new-arrival__wrap__list__item__link__price">£80.60</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="catalog.html" class="main__container__new-arrival__wrap__btn">All arrivals</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__other-categories">
+            <a class="footer__other-categories__wrap">
+                <img src="img/adidas.png" alt="adidas">
+                <div class="footer__other-categories__wrap__description">
+                    <p class="footer__other-categories__wrap__description__name">Adidas Blue</p>
+                    <span class="footer__other-categories__wrap__description__categories">For men</span>
+                </div>
+            </a>
+            <a class="footer__other-categories__wrap-hidden">
+                <img src="img/repairPatches.png" alt="adidas">
+                <div class="footer__other-categories__wrap-hidden__description">
+                    <p class="footer__other-categories__wrap-hidden__description__name">Repair Patches</p>
+                    <span class="footer__other-categories__wrap-hidden__description__categories">£150.50</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="footer--container">
+            <div class="footer__links-care">
+
+                <div class="footer__links-care__links">
+
+                    <h2 class="footer__links-care__links__title">Quick Links</h2>
+
+                    <ul class="footer__links-care__links__list">
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Store locator</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Gift cards</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Size guide</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">About us</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Support</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__links-care__care">
+
+                    <h2 class="footer__links-care__care__title">Customer Care</h2>
+
+                    <ul class="footer__links-care__care__list">
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Customer service</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Track my order</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Return policy</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Shipping & delivery</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Contact us</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer--container__wrap">
+                <div class="footer__question-phone">
+                    <div class="footer__question-phone__question">
+                        <h2 class="footer__question-phone__question__title">Questions</h2>
+                        <img src="img/twitterGrey.png" alt="twitter">
+                        <span>Tweet us</span>
+                        <a href="https://twitter.com/" target="_blank">@template</a>
+                    </div>
+                    <div class="footer__question-phone__phone">
+                        <h2 class="footer__question-phone__phone__title">Order by phone</h2>
+                        <a href="tel:+88004094712" class="footer__question-phone__phone__number">8-800-409-47-12</a>
+                    </div>
+                </div>
+
+                <div class="footer__about-delivery">
+                    <span>We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.</span>
+                </div>
+
+                <div class="footer__documents-social">
+                    <div class="footer__documents-social__documents">
+                        <ul class="footer__documents-social__documents__list">
+                            <li class="footer__documents-social__documents__list__item">
+                                <a href="#" class="footer__documents-social__documents__list__item__link">Legal notice</a>
+                            </li>
+                            <li class="footer__documents-social__documents__list__item">
+                                <a href="#" class="footer__documents-social__documents__list__item__link">Privacy policy</a>
+                            </li>
+                            <li class="footer__documents-social__documents__list__item">
+                                <a href="#" class="footer__documents-social__documents__list__item__link">Site map</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__documents-social__social">
+                        <a href="https://www.facebook.com/" target="_blank"
+                           class="footer__documents-social__social__facebook">
+                            <img src="img/fb.png" alt="facebook">
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__documents-social__social__twitter">
+                            <img src="img/twi.png" alt="twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copyright-share">
+            <div class="footer__copyright-share__copyright">
+                <a href="#" class="footer__copyright-share__copyright__link">&copy; 2010–2015, The Template Group inc.</a>
+            </div>
+
+            <div class="footer__copyright-share__share">
+                <span class="footer__copyright-share__share__text">Share </span>
+                <a href="#" class="footer__copyright-share__share__link">1437</a>
+            </div>
+
+            <div class="footer__copyright-share__documents">
+                <ul class="footer__copyright-share__documents__list">
+                    <li class="footer__copyright-share__documents__list__item">
+                        <a href="#" class="footer__copyright-share__documents__list__item__link">Legal notice</a>
+                    </li>
+                    <li class="footer__documents-social__documents__list__item">
+                        <a href="#" class="footer__copyright-share__documents__list__item__link">Privacy policy</a>
+                    </li>
+                    <li class="footer__documents-social__documents__list__item">
+                        <a href="#" class="footer__copyright-share__documents__list__item__link">Site map</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/best-offer.js"></script>
+    <script src="data/catalog.js"></script>
+    <script src="js/lodash.js"></script>
+    <script src="js/start.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TL</title>
+    <link rel="stylesheet" href="fonts/openSans/stylesheet.css">
+    <link rel="stylesheet" href="fonts/robotoBold/stylesheet.css">
+    <link rel="stylesheet" href="fonts/robotoRegular/stylesheet.css">
+    <link rel="stylesheet" href="fonts/robotoMedium/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/catalog.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container__logo">
+                <a href="start.html" class="header__container__logo--link">tl</a>
+                <a href="start.html" class="header__container__logo--link__full">Template</a>
+            </div>
+
+            <div class="header__container__bag-menu">
+
+                <div class="header__container__bag-menu__sign-in">
+                    <a href="#" class="header__container__bag-menu__sign-in__btn">E-mail sing up</a>
+                </div>
+
+                <div class="header__container__bag-menu__bag">
+                    <a href="shopping-bag.html" class="header__container__bag-menu__bag--link">
+                        <img src="img/bag.png" alt="bag">
+                        <span>Bag</span>
+                        <span id="price-header"></span>
+                        <span>(</span>
+                        <span id="count"></span>
+                        <span>)</span>
+                    </a>
+                </div>
+
+                <div class="header__container__bag-menu__burger">
+                    <a class="header__container__bag-menu__burger__burger-icon" href="#"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__wrap-nav">
+            <nav class="header__wrap-nav__nav">
+                <ul class="header__wrap-nav__nav__list">
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link active">Women</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Men</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Handbag</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Accessories</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Sale</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">New Arrivals</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Clearance</a>
+                    </li>
+                    <li class="header__wrap-nav__nav__list__item">
+                        <a href="#" class="header__wrap-nav__nav__list__item__link">Store Locator</a>
+                    </li>
+                </ul>
+                <label class="header__wrap-nav__nav__search">
+                    <input class="header__wrap-nav__nav__search__input" type="text" placeholder="Style Name">
+                    <a href="#" class="header__wrap-nav__nav__search__icon"></a>
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="main__filters">
+            <div class="main__filters__first-line">
+                <div class="main__filters__first-line__text">
+                    <span class="main__filters__first-line__text--fashion">Fashion,</span>
+                    <span class="main__filters__first-line__text--type">Product type,</span>
+                    <span class="main__filters__first-line__text--color">Color,</span>
+                    <span class="main__filters__first-line__text--brand">Brand,</span>
+                    <span class="main__filters__first-line__text--size">Size,</span>
+                    <span class="main__filters__first-line__text--price">Price range</span>
+                </div>
+                <a href="#" class="main__filters__first-line__btn"></a>
+            </div>
+
+            <div class="main__filters__hidden">
+
+                <div class="main__filters__hidden__container-fashion-type__wrap-fashion">
+                    <h2>Fashion</h2>
+                    <ul class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion">
+                        <li class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion__item">
+                            <a href="#">Not selected</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion__item">
+                            <a href="#">Nail the 90s</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion__item">
+                            <a href="#">Casual style</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion__item">
+                            <a href="#">New Look</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion__item">
+                            <a href="#">Sport</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion__item">
+                            <a href="#">Vintage</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-fashion__fashion__item">
+                            <a href="#">Classical style</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__hidden__container-fashion-type__wrap-type">
+                    <h2>Product type</h2>
+                    <ul class="main__filters__hidden__container-fashion-type__wrap-type__type">
+                        <li class="main__filters__hidden__container-fashion-type__wrap-type__type__item">
+                            <a href="#">Not selected</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-type__type__item">
+                            <a href="#">Coats & Jackets</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-type__type__item">
+                            <a href="#">Dresses</a>
+                        </li>
+                        <li class="main__filters__hidden__container-fashion-type__wrap-type__type__item">
+                            <a href="#">Jersey Tops</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__hidden__container-color-brand__wrap-color">
+                    <h2>Color</h2>
+                    <ul class="main__filters__hidden__container-color-brand__wrap-color__color">
+                        <li class="main__filters__hidden__container-color-brand__wrap-color__color__item">
+                            <a href="#">Not selected</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-color__color__item">
+                            <a href="#">Black</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-color__color__item">
+                            <a href="#">Blue</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-color__color__item">
+                            <a href="#">Red</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-color__color__item">
+                            <a href="#">Green</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-color__color__item">
+                            <a href="#">Golden</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__hidden__container-color-brand__wrap-brand">
+                    <h2>Brand</h2>
+                    <ul class="main__filters__hidden__container-color-brand__wrap-brand__brand">
+                        <li class="main__filters__hidden__container-color-brand__wrap-brand__brand__item">
+                            <a href="#">Not selected</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-brand__brand__item">
+                            <a href="#">Chi Chi London</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-brand__brand__item">
+                            <a href="#">Antipodium</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-brand__brand__item">
+                            <a href="#">Adidas</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-brand__brand__item">
+                            <a href="#">New Balance</a>
+                        </li>
+                        <li class="main__filters__hidden__container-color-brand__wrap-brand__brand__item">
+                            <a href="#">River Island</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__hidden__container-size-price__wrap-size">
+                    <h2>Size</h2>
+                    <ul class="main__filters__hidden__container-size-price__wrap-size__size">
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">Not selected</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 2</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 18</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 18L</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 20</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 20L</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 20S</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 22S</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-size__size__item">
+                            <a href="#">UK 22</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__hidden__container-size-price__wrap-price">
+                    <h2>Price range</h2>
+                    <ul class="main__filters__hidden__container-size-price__wrap-price__price">
+                        <li class="main__filters__hidden__container-size-price__wrap-price__price__item">
+                            <a href="#">Not selected</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-price__price__item">
+                            <a href="#">To £99</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-price__price__item">
+                            <a href="#">£100-£299</a>
+                        </li>
+                        <li class="main__filters__hidden__container-size-price__wrap-price__price__item">
+                            <a href="#">From £300</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main__filters__desktop">
+                <div class="main__filters__desktop__wrap-fashion">
+                    <a href="#" id="fashion" class="main__filters__desktop__wrap-fashion__title">
+                        <div class="main__filters__desktop__wrap-fashion__title__name">
+                            <span class="main__filters__desktop__wrap-fashion__title__name--categories">Fashion</span>
+                            <span class="main__filters__desktop__wrap-fashion__title__name--selected">Fashion</span>
+                        </div>
+                        <img src="img/arrowFilters.png" alt="arrow">
+                    </a>
+                    <ul class="main__filters__desktop__wrap-fashion__list">
+                        <li class="main__filters__desktop__wrap-fashion__list__item"><a href="#">Not selected</a></li>
+                        <li class="main__filters__desktop__wrap-fashion__list__item"><a href="#">Nail the 90s</a></li>
+                        <li class="main__filters__desktop__wrap-fashion__list__item"><a href="#">Casual style</a></li>
+                        <li class="main__filters__desktop__wrap-fashion__list__item"><a href="#">New Look</a></li>
+                        <li class="main__filters__desktop__wrap-fashion__list__item"><a href="#">Sport</a></li>
+                        <li class="main__filters__desktop__wrap-fashion__list__item"><a href="#">Vintage</a></li>
+                        <li class="main__filters__desktop__wrap-fashion__list__item"><a href="#">Classical style</a></li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__desktop__wrap-type">
+                    <a href="#" id="type" class="main__filters__desktop__wrap-type__title">
+                        <div class="main__filters__desktop__wrap-type__title__name">
+                            <span class="main__filters__desktop__wrap-type__title__name--categories">Product type</span>
+                            <span class="main__filters__desktop__wrap-type__title__name--selected">Product type</span>
+                        </div>
+                        <img src="img/arrowFilters.png" alt="arrow">
+                    </a>
+                    <ul class="main__filters__desktop__wrap-type__list">
+                        <li class="main__filters__desktop__wrap-type__list__item"><a href="#">Not selected</a></li>
+                        <li class="main__filters__desktop__wrap-type__list__item"><a href="#">Coats & Jackets</a></li>
+                        <li class="main__filters__desktop__wrap-type__list__item"><a href="#">Dresses</a></li>
+                        <li class="main__filters__desktop__wrap-type__list__item"><a href="#">Jersey Tops</a></li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__desktop__wrap-color">
+                    <a href="#" id="color" class="main__filters__desktop__wrap-color__title">
+                        <div class="main__filters__desktop__wrap-color__title__name">
+                            <span class="main__filters__desktop__wrap-color__title__name--categories">Color</span>
+                            <span class="main__filters__desktop__wrap-color__title__name--selected">Color</span>
+                        </div>
+                        <img src="img/arrowFilters.png" alt="arrow">
+                    </a>
+                    <ul class="main__filters__desktop__wrap-color__list">
+                        <li class="main__filters__desktop__wrap-color__list__item"><a href="#">Not selected</a></li>
+                        <li class="main__filters__desktop__wrap-color__list__item"><a href="#">Black</a></li>
+                        <li class="main__filters__desktop__wrap-color__list__item"><a href="#">Blue</a></li>
+                        <li class="main__filters__desktop__wrap-color__list__item"><a href="#">Red</a></li>
+                        <li class="main__filters__desktop__wrap-color__list__item"><a href="#">Green</a></li>
+                        <li class="main__filters__desktop__wrap-color__list__item"><a href="#">Golden</a></li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__desktop__wrap-brand">
+                    <a href="#" id="brand" class="main__filters__desktop__wrap-brand__title">
+                        <div class="main__filters__desktop__wrap-brand__title__name">
+                            <span class="main__filters__desktop__wrap-brand__title__name--categories">Brand</span>
+                            <span class="main__filters__desktop__wrap-brand__title__name--selected">Brand</span>
+                        </div>
+                        <img src="img/arrowFilters.png" alt="arrow">
+                    </a>
+                    <ul class="main__filters__desktop__wrap-brand__list">
+                        <li class="main__filters__desktop__wrap-brand__list__item"><a href="#">Not selected</a></li>
+                        <li class="main__filters__desktop__wrap-brand__list__item"><a href="#">Chi Chi London</a></li>
+                        <li class="main__filters__desktop__wrap-brand__list__item"><a href="#">Antipodium</a></li>
+                        <li class="main__filters__desktop__wrap-brand__list__item"><a href="#">Adidas</a></li>
+                        <li class="main__filters__desktop__wrap-brand__list__item"><a href="#">New Balance</a></li>
+                        <li class="main__filters__desktop__wrap-brand__list__item"><a href="#">River Island</a></li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__desktop__wrap-size">
+                    <a href="#" id="size" class="main__filters__desktop__wrap-size__title">
+                        <div class="main__filters__desktop__wrap-size__title__name">
+                            <span class="main__filters__desktop__wrap-size__title__name--categories">Size</span>
+                            <span class="main__filters__desktop__wrap-size__title__name--selected">Size</span>
+                        </div>
+                        <img src="img/arrowFilters.png" alt="arrow">
+                    </a>
+                    <ul class="main__filters__desktop__wrap-size__list">
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">Not selected</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 2</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 18</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 18L</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 20</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 20L</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 20S</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 22S</a></li>
+                        <li class="main__filters__desktop__wrap-size__list__item"><a href="#">UK 22</a></li>
+                    </ul>
+                </div>
+
+                <div class="main__filters__desktop__wrap-price">
+                    <a href="#" id="price" class="main__filters__desktop__wrap-price__title">
+                        <div class="main__filters__desktop__wrap-price__title__name">
+                            <span class="main__filters__desktop__wrap-price__title__name--categories">Price range</span>
+                            <span class="main__filters__desktop__wrap-price__title__name--selected">Price range</span>
+                        </div>
+                        <img src="img/arrowFilters.png" alt="arrow">
+                    </a>
+                    <ul class="main__filters__desktop__wrap-price__list">
+                        <li class="main__filters__desktop__wrap-price__list__item"><a href="#">Not selected</a></li>
+                        <li class="main__filters__desktop__wrap-price__list__item"><a href="#">To £99</a></li>
+                        <li class="main__filters__desktop__wrap-price__list__item"><a href="#">£100-£299</a></li>
+                        <li class="main__filters__desktop__wrap-price__list__item"><a href="#">From £300</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main--blocked-content"></div>
+        <div class="main__wrap__find">
+            <ul class="main__wrap__find__list"></ul>
+        </div>
+
+        <div class="main__description__promotion">
+            <h2 class="main__description__promotion__title">Last weekend <a href="#">extra 50%</a> off on all reduced boots
+                and shoulder bags</h2>
+            <p class="main__description__promotion__rules">This offer is valid in-store and online. Prices displayed reflect
+                this additional discount. This offer ends at 11:59 GMT on March 1st 2019</p>
+        </div>
+
+        <div class="main__products">
+            <ul class="main__products__list"></ul>
+
+            <div class="main__products__wrap-btn">
+                <a href="#" class="main__products__wrap-btn__btn">Show more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__other-categories">
+            <a class="footer__other-categories__wrap">
+                <img src="img/adidas.png" alt="adidas">
+                <div class="footer__other-categories__wrap__description">
+                    <p class="footer__other-categories__wrap__description__name">Adidas Blue</p>
+                    <span class="footer__other-categories__wrap__description__categories">For men</span>
+                </div>
+            </a>
+            <a class="footer__other-categories__wrap-hidden">
+                <img src="img/repairPatches.png" alt="adidas">
+                <div class="footer__other-categories__wrap-hidden__description">
+                    <p class="footer__other-categories__wrap-hidden__description__name">Repair Patches</p>
+                    <span class="footer__other-categories__wrap-hidden__description__categories">£150.50</span>
+                </div>
+            </a>
+            <a class="footer__other-categories__wrap-hidden desktop">
+                <img src="img/saleBag.png" alt="sale bag">
+                <div class="footer__other-categories__wrap-hidden__description desktop">
+                    <p class="footer__other-categories__wrap-hidden__description__name">Sale</p>
+                    <span class="footer__other-categories__wrap-hidden__description__categories">-70%</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="footer--container">
+            <div class="footer__links-care">
+
+                <div class="footer__links-care__links">
+
+                    <h2 class="footer__links-care__links__title">Quick Links</h2>
+
+                    <ul class="footer__links-care__links__list">
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Store locator</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Gift cards</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Size guide</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">About us</a>
+                        </li>
+
+                        <li class="footer__links-care__links__list__item">
+                            <a href="#" class="footer__links-care__links__list__item__link">Support</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__links-care__care">
+
+                    <h2 class="footer__links-care__care__title">Customer Care</h2>
+
+                    <ul class="footer__links-care__care__list">
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Customer service</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Track my order</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Return policy</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Shipping & delivery</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Contact us</a>
+                        </li>
+
+                        <li class="footer__links-care__care__list__item">
+                            <a href="" class="footer__links-care__care__list__item__link">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer--container__wrap">
+                <div class="footer__question-phone">
+                    <div class="footer__question-phone__question">
+                        <h2 class="footer__question-phone__question__title">Questions</h2>
+                        <img src="img/twitterGrey.png" alt="twitter">
+                        <span>Tweet us</span>
+                        <a href="https://twitter.com/" target="_blank">@template</a>
+                    </div>
+                    <div class="footer__question-phone__phone">
+                        <h2 class="footer__question-phone__phone__title">Order by phone</h2>
+                        <a href="tel:+88004094712" class="footer__question-phone__phone__number">8-800-409-47-12</a>
+                    </div>
+                </div>
+
+                <div class="footer__about-delivery">
+                    <span>We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.</span>
+                </div>
+
+                <div class="footer__documents-social">
+                    <div class="footer__documents-social__documents">
+                        <ul class="footer__documents-social__documents__list">
+                            <li class="footer__documents-social__documents__list__item">
+                                <a href="#" class="footer__documents-social__documents__list__item__link">Legal notice</a>
+                            </li>
+                            <li class="footer__documents-social__documents__list__item">
+                                <a href="#" class="footer__documents-social__documents__list__item__link">Privacy policy</a>
+                            </li>
+                            <li class="footer__documents-social__documents__list__item">
+                                <a href="#" class="footer__documents-social__documents__list__item__link">Site map</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__documents-social__social">
+                        <a href="https://www.facebook.com/" target="_blank"
+                           class="footer__documents-social__social__facebook">
+                            <img src="img/fb.png" alt="facebook">
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__documents-social__social__twitter">
+                            <img src="img/twi.png" alt="twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copyright-share">
+            <div class="footer__copyright-share__copyright">
+                <a href="#" class="footer__copyright-share__copyright__link">&copy; 2010–2015, The Template Group inc.</a>
+            </div>
+
+            <div class="footer__copyright-share__share">
+                <span class="footer__copyright-share__share__text">Share </span>
+                <a href="#" class="footer__copyright-share__share__link">1437</a>
+            </div>
+
+            <div class="footer__copyright-share__documents">
+                <ul class="footer__copyright-share__documents__list">
+                    <li class="footer__copyright-share__documents__list__item">
+                        <a href="#" class="footer__copyright-share__documents__list__item__link">Legal notice</a>
+                    </li>
+                    <li class="footer__documents-social__documents__list__item">
+                        <a href="#" class="footer__copyright-share__documents__list__item__link">Privacy policy</a>
+                    </li>
+                    <li class="footer__documents-social__documents__list__item">
+                        <a href="#" class="footer__copyright-share__documents__list__item__link">Site map</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/catalog.js"></script>
+    <script src="js/catalog.js"></script>
+
+</body>
+</html>
